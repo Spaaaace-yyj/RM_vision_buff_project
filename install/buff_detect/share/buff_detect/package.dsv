@@ -1,0 +1,8 @@
+source;share/buff_detect/hook/cmake_prefix_path.ps1
+source;share/buff_detect/hook/cmake_prefix_path.dsv
+source;share/buff_detect/hook/cmake_prefix_path.sh
+source;share/buff_detect/local_setup.bash
+source;share/buff_detect/local_setup.dsv
+source;share/buff_detect/local_setup.ps1
+source;share/buff_detect/local_setup.sh
+source;share/buff_detect/local_setup.zsh

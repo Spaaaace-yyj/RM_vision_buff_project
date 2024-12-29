@@ -1,0 +1,46 @@
+[0.008s] Invoking command in '/home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect -- -j22 -l22
+[0.030s] [ 50%] [32mBuilding CXX object CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o[0m
+[1.811s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.811s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:153:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.811s]   153 |                         for (int i = 0; [01;35m[Ki < contours.size()[m[K; i++) {
+[1.811s]       |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[1.811s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:182:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.811s]   182 |                         if ((minID >= 0 && [01;35m[KminID <= contours.size()[m[K) && hierarchies[minID][3] >= 0) {
+[1.812s]       |                                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[1.812s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:191:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.812s]   191 |                         for (int i = 0; [01;35m[Ki < contours_close.size()[m[K; i++) {
+[1.812s]       |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.812s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:203:146:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.812s]   203 | [i][2]][0] != -1 && hierarchies_close[hierarchies_close[i][2]][0] < contours_close.size()) {
+[1.812s] 
+[1.813s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:221:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.813s]   221 |                                 if (maxID >= 0 && [01;35m[KmaxID < contours_close.size()[m[K) {
+[1.813s]       |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.813s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:242:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradiu_buff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.813s]   242 |                         double [01;35m[Kradiu_buff[m[K = 0;
+[1.813s]       |                                [01;35m[K^~~~~~~~~~[m[K
+[5.317s] [100%] [32m[1mLinking CXX executable buff_detect[0m
+[5.423s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410
+[5.423s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[5.685s] [100%] Built target buff_detect
+[5.694s] Invoked command in '/home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect -- -j22 -l22
+[5.707s] Invoking command in '/home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect
+[5.708s] -- Install configuration: ""
+[5.708s] -- Installing: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/lib/buff_detect/buff_detect
+[5.711s] -- Set runtime path of "/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/lib/buff_detect/buff_detect" to ""
+[5.711s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/ament_index/resource_index/package_run_dependencies/buff_detect
+[5.711s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/ament_index/resource_index/parent_prefix_path/buff_detect
+[5.711s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/environment/ament_prefix_path.sh
+[5.712s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/environment/ament_prefix_path.dsv
+[5.712s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/environment/path.sh
+[5.712s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/environment/path.dsv
+[5.712s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/local_setup.bash
+[5.712s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/local_setup.sh
+[5.712s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/local_setup.zsh
+[5.712s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/local_setup.dsv
+[5.712s] -- Installing: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/package.dsv
+[5.712s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/ament_index/resource_index/packages/buff_detect
+[5.712s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/cmake/buff_detectConfig.cmake
+[5.712s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/cmake/buff_detectConfig-version.cmake
+[5.713s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/package.xml
+[5.713s] Invoked command in '/home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect

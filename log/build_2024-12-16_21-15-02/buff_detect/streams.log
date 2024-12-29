@@ -1,0 +1,84 @@
+[0.007s] Invoking command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_buff_detect/src/buff_detect -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_buff_detect/install/buff_detect
+[0.075s] -- The C compiler identification is GNU 11.4.0
+[0.133s] -- The CXX compiler identification is GNU 11.4.0
+[0.143s] -- Detecting C compiler ABI info
+[0.187s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.197s] -- Detecting CXX compiler ABI info
+[0.244s] -- Detecting CXX compiler ABI info - done
+[0.251s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.252s] -- Detecting CXX compile features
+[0.252s] -- Detecting CXX compile features - done
+[0.255s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.348s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.411s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.445s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.448s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.455s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.468s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.483s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.518s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.522s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.597s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.629s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.657s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.664s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.708s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.709s] -- Found Threads: TRUE  
+[0.760s] -- Found OpenCV: /usr/local (found version "4.10.0") 
+[0.761s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.792s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.795s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.854s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.854s] -- Configured cppcheck include dirs: 
+[0.854s] -- Configured cppcheck exclude dirs and/or files: 
+[0.855s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.856s] -- Added test 'lint_cmake' to check CMake code style
+[0.857s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.862s] -- Added test 'uncrustify' to check C / C++ code style
+[0.862s] -- Configured uncrustify additional arguments: 
+[0.863s] -- Added test 'xmllint' to check XML markup files
+[0.863s] -- Configuring done (0.9s)
+[0.870s] -- Generating done (0.0s)
+[0.871s] -- Build files have been written to: /home/spaaaaace/Ros2_buff_detect/build/buff_detect
+[0.875s] Invoked command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_buff_detect/src/buff_detect -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_buff_detect/install/buff_detect
+[0.877s] Invoking command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_buff_detect/build/buff_detect -- -j22 -l22
+[0.895s] [ 50%] [32mBuilding CXX object CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o[0m
+[2.575s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:[m[K In member function ‘[01m[Kvoid ImagePublisher::PublishResultFrame(const cv::Mat&)[m[K’:
+[2.575s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:35:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<cv_bridge::CvImage>[m[K’} has no member named ‘[01m[Kimage[m[K’
+[2.575s]    35 |                         cv_image.[01;31m[Kimage[m[K = bgr8_frame;
+[2.575s]       |                                  [01;31m[K^~~~~[m[K
+[2.575s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:36:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<cv_bridge::CvImage>[m[K’} has no member named ‘[01m[Kencoding[m[K’
+[2.575s]    36 |                         cv_image.[01;31m[Kencoding[m[K = "bgr8";
+[2.575s]       |                                  [01;31m[K^~~~~~~~[m[K
+[2.575s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:37:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<cv_bridge::CvImage>[m[K’} has no member named ‘[01m[Kheader[m[K’
+[2.576s]    37 |                         cv_image.[01;31m[Kheader[m[K.stamp = this->get_clock()->now();
+[2.576s]       |                                  [01;31m[K^~~~~~[m[K
+[2.576s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:38:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<cv_bridge::CvImage>[m[K’} has no member named ‘[01m[Kheader[m[K’
+[2.576s]    38 |             cv_image.[01;31m[Kheader[m[K.frame_id = "result_frame";
+[2.576s]       |                      [01;31m[K^~~~~~[m[K
+[2.576s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:39:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<cv_bridge::CvImage>[m[K’} has no member named ‘[01m[KtoImageMsg[m[K’
+[2.576s]    39 |                         auto img_msg = cv_image.[01;31m[KtoImageMsg[m[K();
+[2.576s]       |                                                 [01;31m[K^~~~~~~~~~[m[K
+[2.608s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:[m[K In constructor ‘[01m[KImage::Image()[m[K’:
+[2.608s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:97:29:[m[K [01;31m[Kerror: [m[K‘[01m[Krcl_intPtrerfaces[m[K’ has not been declared
+[2.608s]    97 |         lower_blue_s.type = [01;31m[Krcl_intPtrerfaces[m[K::msg::ParameterType::PARAMETER_INTEGER;
+[2.608s]       |                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[2.822s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.822s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:276:69:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.823s]   276 |                                         if (childid >= 0 && [01;35m[Kchildid < contours.size()[m[K) {
+[2.823s]       |                                                             [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.823s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:292:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.823s]   292 |                         if ((minID >= 0 && [01;35m[KminID < contours.size()[m[K)) {
+[2.823s]       |                                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.823s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:314:146:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.823s]   314 |                                         if (hierarchies_close[hierarchies_close[i][2]][0] != -1 && hierarchies_close[hierarchies_close[i][2]][0] < contours_close.size()) {
+[2.823s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:332:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.823s]   332 |                                 if (maxID >= 0 && [01;35m[KmaxID < contours_close.size()[m[K) {
+[2.824s]       |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.191s] gmake[2]: *** [CMakeFiles/buff_detect.dir/build.make:76：CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o] 错误 1
+[4.191s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/buff_detect.dir/all] 错误 2
+[4.191s] gmake: *** [Makefile:146：all] 错误 2
+[4.193s] Invoked command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_buff_detect/build/buff_detect -- -j22 -l22

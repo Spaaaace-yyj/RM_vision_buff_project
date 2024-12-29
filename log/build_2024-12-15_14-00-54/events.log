@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000231] (buff_detect) JobQueued: {'identifier': 'buff_detect', 'dependencies': OrderedDict()}
+[0.000280] (buff_detect) JobStarted: {'identifier': 'buff_detect'}
+[0.005324] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'cmake'}
+[0.005805] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'build'}
+[0.006367] (buff_detect) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/spaaaaace/Ros2_buff_detect/build/buff_detect', '--', '-j22', '-l22'], 'cwd': '/home/spaaaaace/Ros2_buff_detect/build/buff_detect', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3R4DY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install/buff_detect:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'spaaaaace'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/spaaaaace/Ros2_buff_detect/build/buff_detect'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install/buff_detect:/opt/ros/humble')]), 'shell': False}
+[0.033332] (buff_detect) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o\x1b[0m\n'}
+[0.099444] (-) TimerEvent: {}
+[0.199857] (-) TimerEvent: {}
+[0.300279] (-) TimerEvent: {}
+[0.400651] (-) TimerEvent: {}
+[0.500956] (-) TimerEvent: {}
+[0.601285] (-) TimerEvent: {}
+[0.701673] (-) TimerEvent: {}
+[0.802041] (-) TimerEvent: {}
+[0.902478] (-) TimerEvent: {}
+[1.002862] (-) TimerEvent: {}
+[1.103304] (-) TimerEvent: {}
+[1.203765] (-) TimerEvent: {}
+[1.304082] (-) TimerEvent: {}
+[1.404374] (-) TimerEvent: {}
+[1.504703] (-) TimerEvent: {}
+[1.605033] (-) TimerEvent: {}
+[1.705323] (-) TimerEvent: {}
+[1.805629] (-) TimerEvent: {}
+[1.905991] (-) TimerEvent: {}
+[2.006293] (-) TimerEvent: {}
+[2.106671] (-) TimerEvent: {}
+[2.207097] (-) TimerEvent: {}
+[2.302735] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.303085] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:164:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.303577] (buff_detect) StderrLine: {'line': b'  164 |                         for (int i = 0; \x1b[01;35m\x1b[Ki < contours.size()\x1b[m\x1b[K; i++) {\n'}
+[2.303762] (buff_detect) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.303834] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:177:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.303930] (buff_detect) StderrLine: {'line': b'  177 |                                       if (childid >= 0 && \x1b[01;35m\x1b[Kchildid < contours.size()\x1b[m\x1b[K) {\n'}
+[2.303992] (buff_detect) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.304047] (buff_detect) StderrLine: {'line': b'\n'}
+[2.304112] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:193:50:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.304174] (buff_detect) StderrLine: {'line': b'  193 |                         if ((minID >= 0 && \x1b[01;35m\x1b[KminID < contours.size()\x1b[m\x1b[K)) {\n'}
+[2.304231] (buff_detect) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.304292] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:203:43:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.304367] (buff_detect) StderrLine: {'line': b'  203 |                         for (int i = 0; \x1b[01;35m\x1b[Ki < contours_close.size()\x1b[m\x1b[K; i++) {\n'}
+[2.304419] (buff_detect) StderrLine: {'line': b'      |                                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.304738] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:215:146:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.304834] (buff_detect) StderrLine: {'line': b'  215 | [i][2]][0] != -1 && hierarchies_close[hierarchies_close[i][2]][0] < contours_close.size()) {\n'}
+[2.304897] (buff_detect) StderrLine: {'line': b'\n'}
+[2.304953] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:233:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.305022] (buff_detect) StderrLine: {'line': b'  233 |                                 if (maxID >= 0 && \x1b[01;35m\x1b[KmaxID < contours_close.size()\x1b[m\x1b[K) {\n'}
+[2.305076] (buff_detect) StderrLine: {'line': b'      |                                                   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.305128] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:254:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kradiu_buff\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.305188] (buff_detect) StderrLine: {'line': b'  254 |                         double \x1b[01;35m\x1b[Kradiu_buff\x1b[m\x1b[K = 0;\n'}
+[2.305240] (buff_detect) StderrLine: {'line': b'      |                                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.307172] (-) TimerEvent: {}
+[2.407449] (-) TimerEvent: {}
+[2.507785] (-) TimerEvent: {}
+[2.608134] (-) TimerEvent: {}
+[2.708530] (-) TimerEvent: {}
+[2.808934] (-) TimerEvent: {}
+[2.909269] (-) TimerEvent: {}
+[3.009616] (-) TimerEvent: {}
+[3.110001] (-) TimerEvent: {}
+[3.210336] (-) TimerEvent: {}
+[3.310704] (-) TimerEvent: {}
+[3.411065] (-) TimerEvent: {}
+[3.511416] (-) TimerEvent: {}
+[3.611763] (-) TimerEvent: {}
+[3.712093] (-) TimerEvent: {}
+[3.812828] (-) TimerEvent: {}
+[3.913357] (-) TimerEvent: {}
+[4.013843] (-) TimerEvent: {}
+[4.114202] (-) TimerEvent: {}
+[4.214605] (-) TimerEvent: {}
+[4.314959] (-) TimerEvent: {}
+[4.415335] (-) TimerEvent: {}
+[4.515752] (-) TimerEvent: {}
+[4.616120] (-) TimerEvent: {}
+[4.716510] (-) TimerEvent: {}
+[4.816925] (-) TimerEvent: {}
+[4.917371] (-) TimerEvent: {}
+[5.017900] (-) TimerEvent: {}
+[5.118320] (-) TimerEvent: {}
+[5.218741] (-) TimerEvent: {}
+[5.319096] (-) TimerEvent: {}
+[5.419390] (-) TimerEvent: {}
+[5.519775] (-) TimerEvent: {}
+[5.620143] (-) TimerEvent: {}
+[5.720528] (-) TimerEvent: {}
+[5.820803] (-) TimerEvent: {}
+[5.921091] (-) TimerEvent: {}
+[6.021399] (-) TimerEvent: {}
+[6.121685] (-) TimerEvent: {}
+[6.221992] (-) TimerEvent: {}
+[6.282948] (buff_detect) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable buff_detect\x1b[0m\n'}
+[6.322111] (-) TimerEvent: {}
+[6.401900] (buff_detect) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410\n'}
+[6.402205] (buff_detect) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[6.422221] (-) TimerEvent: {}
+[6.522603] (-) TimerEvent: {}
+[6.622986] (-) TimerEvent: {}
+[6.708635] (buff_detect) StdoutLine: {'line': b'[100%] Built target buff_detect\n'}
+[6.716707] (buff_detect) CommandEnded: {'returncode': 0}
+[6.723052] (-) TimerEvent: {}
+[6.730395] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'install'}
+[6.732690] (buff_detect) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/spaaaaace/Ros2_buff_detect/build/buff_detect'], 'cwd': '/home/spaaaaace/Ros2_buff_detect/build/buff_detect', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3R4DY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install/buff_detect:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'spaaaaace'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/spaaaaace/Ros2_buff_detect/build/buff_detect'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install/buff_detect:/opt/ros/humble')]), 'shell': False}
+[6.734789] (buff_detect) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.734965] (buff_detect) StdoutLine: {'line': b'-- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/lib/buff_detect/buff_detect\n'}
+[6.738310] (buff_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/spaaaaace/Ros2_buff_detect/install/buff_detect/lib/buff_detect/buff_detect" to ""\n'}
+[6.738527] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/ament_index/resource_index/package_run_dependencies/buff_detect\n'}
+[6.738653] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/ament_index/resource_index/parent_prefix_path/buff_detect\n'}
+[6.738714] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/ament_prefix_path.sh\n'}
+[6.738771] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/ament_prefix_path.dsv\n'}
+[6.738839] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/path.sh\n'}
+[6.738916] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/path.dsv\n'}
+[6.738972] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.bash\n'}
+[6.739026] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.sh\n'}
+[6.739080] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.zsh\n'}
+[6.739133] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.dsv\n'}
+[6.739187] (buff_detect) StdoutLine: {'line': b'-- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/package.dsv\n'}
+[6.739242] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/ament_index/resource_index/packages/buff_detect\n'}
+[6.739297] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/cmake/buff_detectConfig.cmake\n'}
+[6.739351] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/cmake/buff_detectConfig-version.cmake\n'}
+[6.739404] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/package.xml\n'}
+[6.740296] (buff_detect) CommandEnded: {'returncode': 0}
+[6.763074] (buff_detect) JobEnded: {'identifier': 'buff_detect', 'rc': 0}
+[6.763699] (-) EventReactorShutdown: {}

@@ -1,0 +1,702 @@
+[0.000000] (-) TimerEvent: {}
+[0.000754] (buff_detect) JobQueued: {'identifier': 'buff_detect', 'dependencies': OrderedDict()}
+[0.000810] (buff_detect) JobStarted: {'identifier': 'buff_detect'}
+[0.006573] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'cmake'}
+[0.006929] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'build'}
+[0.007310] (buff_detect) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/spaaaaace/Ros2_mindvision/build/buff_detect', '--', '-j22', '-l22'], 'cwd': '/home/spaaaaace/Ros2_mindvision/build/buff_detect', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/spaaaaace/Ros2_mindvision/install/mindvision_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/spaaaaace/Ros2_mindvision/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DOTQY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/spaaaaace/Ros2_mindvision/install/mindvision_camera:/home/spaaaaace/Ros2_mindvision/install/buff_detect:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'spaaaaace'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/spaaaaace/Ros2_mindvision/build/buff_detect'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/spaaaaace/Ros2_mindvision/install/mindvision_camera:/home/spaaaaace/Ros2_mindvision/install/buff_detect:/opt/ros/humble')]), 'shell': False}
+[0.034072] (buff_detect) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o\x1b[0m\n'}
+[0.099826] (-) TimerEvent: {}
+[0.200183] (-) TimerEvent: {}
+[0.300603] (-) TimerEvent: {}
+[0.401011] (-) TimerEvent: {}
+[0.501446] (-) TimerEvent: {}
+[0.601952] (-) TimerEvent: {}
+[0.702292] (-) TimerEvent: {}
+[0.802673] (-) TimerEvent: {}
+[0.903002] (-) TimerEvent: {}
+[1.003391] (-) TimerEvent: {}
+[1.103771] (-) TimerEvent: {}
+[1.204099] (-) TimerEvent: {}
+[1.304527] (-) TimerEvent: {}
+[1.404848] (-) TimerEvent: {}
+[1.505136] (-) TimerEvent: {}
+[1.605443] (-) TimerEvent: {}
+[1.705778] (-) TimerEvent: {}
+[1.806127] (-) TimerEvent: {}
+[1.906494] (-) TimerEvent: {}
+[2.006926] (-) TimerEvent: {}
+[2.107395] (-) TimerEvent: {}
+[2.207823] (-) TimerEvent: {}
+[2.308351] (-) TimerEvent: {}
+[2.408751] (-) TimerEvent: {}
+[2.509241] (-) TimerEvent: {}
+[2.609696] (-) TimerEvent: {}
+[2.710300] (-) TimerEvent: {}
+[2.736177] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.736520] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:138:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.736819] (buff_detect) StderrLine: {'line': b'  138 |         for (int i = 0; \x1b[01;35m\x1b[Ki < contours.size()\x1b[m\x1b[K; i++) {\n'}
+[2.736858] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.736888] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:168:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.736920] (buff_detect) StderrLine: {'line': b'  168 |         if ((minID >= 0 && \x1b[01;35m\x1b[KminID <= contours.size()\x1b[m\x1b[K) && hierarchies[minID][3] >= 0) {\n'}
+[2.736949] (buff_detect) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.737124] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:177:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.737255] (buff_detect) StderrLine: {'line': b'  177 |         for (int i = 0; \x1b[01;35m\x1b[Ki < contours_close.size()\x1b[m\x1b[K; i++) {\n'}
+[2.737322] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.737534] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:189:130:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.737609] (buff_detect) StderrLine: {'line': b'  189 | [i][2]][0] != -1 && hierarchies_close[hierarchies_close[i][2]][0] < contours_close.size()) {\n'}
+[2.737663] (buff_detect) StderrLine: {'line': b'\n'}
+[2.737776] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:207:41:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of integer expressions of different signedness: \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<std::vector<cv::Point_<int> > >::size_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare\x07-Wsign-compare\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.737884] (buff_detect) StderrLine: {'line': b'  207 |                 if (maxID >= 0 && \x1b[01;35m\x1b[KmaxID <= contours_close.size()\x1b[m\x1b[K) {\n'}
+[2.737952] (buff_detect) StderrLine: {'line': b'      |                                   \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.738347] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:228:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kradiu_buff\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.738434] (buff_detect) StderrLine: {'line': b'  228 |         double \x1b[01;35m\x1b[Kradiu_buff\x1b[m\x1b[K = 0;\n'}
+[2.738515] (buff_detect) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.739024] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator<<\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[2.739378] (buff_detect) StderrLine: {'line': b'  243 |                 \x1b[01;31m\x1b[Kcout << empty\x1b[m\x1b[K << endl;\n'}
+[2.739516] (buff_detect) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[2.739555] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.739848] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.740032] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:108:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.740211] (buff_detect) StderrLine: {'line': b'  108 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ostream_type& (*__pf)(__ostream_type&))\n'}
+[2.740256] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.740290] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:108:36:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>& (*)(std::basic_ostream<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.740530] (buff_detect) StderrLine: {'line': b'  108 |       operator<<(\x1b[01;36m\x1b[K__ostream_type& (*__pf)(__ostream_type&)\x1b[m\x1b[K)\n'}
+[2.740563] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.740593] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:117:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.740626] (buff_detect) StderrLine: {'line': b'  117 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(__ios_type& (*__pf)(__ios_type&))\n'}
+[2.740680] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.740707] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:117:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&)\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ios<char>& (*)(std::basic_ios<char>&)\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.740738] (buff_detect) StderrLine: {'line': b'  117 |       operator<<(\x1b[01;36m\x1b[K__ios_type& (*__pf)(__ios_type&)\x1b[m\x1b[K)\n'}
+[2.740765] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.740790] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.740817] (buff_detect) StderrLine: {'line': b'  127 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(ios_base& (*__pf) (ios_base&))\n'}
+[2.740842] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.740867] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:127:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::ios_base& (*)(std::ios_base&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.740893] (buff_detect) StderrLine: {'line': b'  127 |       operator<<(\x1b[01;36m\x1b[Kios_base& (*__pf) (ios_base&)\x1b[m\x1b[K)\n'}
+[2.740918] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.740944] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:166:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.740975] (buff_detect) StderrLine: {'line': b'  166 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long __n)\n'}
+[2.741001] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.741025] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:166:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.741051] (buff_detect) StderrLine: {'line': b'  166 |       operator<<(\x1b[01;36m\x1b[Klong __n\x1b[m\x1b[K)\n'}
+[2.741082] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[2.741107] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:170:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.741140] (buff_detect) StderrLine: {'line': b'  170 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long __n)\n'}
+[2.741166] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.741190] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:170:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.741215] (buff_detect) StderrLine: {'line': b'  170 |       operator<<(\x1b[01;36m\x1b[Kunsigned long __n\x1b[m\x1b[K)\n'}
+[2.741239] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.741264] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:174:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.741290] (buff_detect) StderrLine: {'line': b'  174 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(bool __n)\n'}
+[2.741315] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.741339] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:174:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kbool\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.741364] (buff_detect) StderrLine: {'line': b'  174 |       operator<<(\x1b[01;36m\x1b[Kbool __n\x1b[m\x1b[K)\n'}
+[2.741389] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~^~~\x1b[m\x1b[K\n'}
+[2.741413] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ostream:829\x1b[m\x1b[K,\n'}
+[2.741436] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.741461] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.741487] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:91:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.741512] (buff_detect) StderrLine: {'line': b'   91 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[2.741539] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.741563] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:92:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.741589] (buff_detect) StderrLine: {'line': b'   92 |     operator<<(\x1b[01;36m\x1b[Kshort __n\x1b[m\x1b[K)\n'}
+[2.741614] (buff_detect) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.741638] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.741662] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.741687] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:181:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.741712] (buff_detect) StderrLine: {'line': b'  181 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned short __n)\n'}
+[2.741737] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.741762] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:181:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kshort unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.741790] (buff_detect) StderrLine: {'line': b'  181 |       operator<<(\x1b[01;36m\x1b[Kunsigned short __n\x1b[m\x1b[K)\n'}
+[2.741815] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.741839] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ostream:829\x1b[m\x1b[K,\n'}
+[2.741865] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.741889] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.741913] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:105:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.741938] (buff_detect) StderrLine: {'line': b'  105 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[2.741965] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.741989] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:106:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742021] (buff_detect) StderrLine: {'line': b'  106 |     operator<<(\x1b[01;36m\x1b[Kint __n\x1b[m\x1b[K)\n'}
+[2.742047] (buff_detect) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~^~~\x1b[m\x1b[K\n'}
+[2.742075] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.742105] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.742133] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:192:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742164] (buff_detect) StderrLine: {'line': b'  192 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned int __n)\n'}
+[2.742190] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.742216] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:192:31:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742242] (buff_detect) StderrLine: {'line': b'  192 |       operator<<(\x1b[01;36m\x1b[Kunsigned int __n\x1b[m\x1b[K)\n'}
+[2.742267] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.742293] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:201:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742321] (buff_detect) StderrLine: {'line': b'  201 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long long __n)\n'}
+[2.742349] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.742378] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:201:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742410] (buff_detect) StderrLine: {'line': b'  201 |       operator<<(\x1b[01;36m\x1b[Klong long __n\x1b[m\x1b[K)\n'}
+[2.742443] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.742475] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:205:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742506] (buff_detect) StderrLine: {'line': b'  205 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(unsigned long long __n)\n'}
+[2.742537] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.742568] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:205:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742601] (buff_detect) StderrLine: {'line': b'  205 |       operator<<(\x1b[01;36m\x1b[Kunsigned long long __n\x1b[m\x1b[K)\n'}
+[2.742631] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.742663] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:220:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742698] (buff_detect) StderrLine: {'line': b'  220 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(double __f)\n'}
+[2.742730] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.742764] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:220:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742796] (buff_detect) StderrLine: {'line': b'  220 |       operator<<(\x1b[01;36m\x1b[Kdouble __f\x1b[m\x1b[K)\n'}
+[2.742827] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.742857] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:224:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742891] (buff_detect) StderrLine: {'line': b'  224 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(float __f)\n'}
+[2.742920] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.742948] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:224:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.742986] (buff_detect) StderrLine: {'line': b'  224 |       operator<<(\x1b[01;36m\x1b[Kfloat __f\x1b[m\x1b[K)\n'}
+[2.743020] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.743056] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:232:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.743097] (buff_detect) StderrLine: {'line': b'  232 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(long double __f)\n'}
+[2.743127] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.743159] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:232:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.743189] (buff_detect) StderrLine: {'line': b'  232 |       operator<<(\x1b[01;36m\x1b[Klong double __f\x1b[m\x1b[K)\n'}
+[2.743216] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.743242] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:245:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.743304] (buff_detect) StderrLine: {'line': b'  245 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(const void* __p)\n'}
+[2.743332] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.743360] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:245:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst void*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.743388] (buff_detect) StderrLine: {'line': b'  245 |       operator<<(\x1b[01;36m\x1b[Kconst void* __p\x1b[m\x1b[K)\n'}
+[2.743413] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.743437] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:250:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::nullptr_t) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.743466] (buff_detect) StderrLine: {'line': b'  250 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(nullptr_t)\n'}
+[2.743491] (buff_detect) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.743517] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:250:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.743543] (buff_detect) StderrLine: {'line': b'  250 |       operator<<(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K)\n'}
+[2.743573] (buff_detect) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.743604] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ostream:829\x1b[m\x1b[K,\n'}
+[2.743631] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.743661] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.743686] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:119:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.743712] (buff_detect) StderrLine: {'line': b'  119 |     \x1b[01;36m\x1b[Kbasic_ostream<_CharT, _Traits>\x1b[m\x1b[K::\n'}
+[2.743740] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.743771] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:120:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>::__streambuf_type*\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_streambuf<char>*\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.743805] (buff_detect) StderrLine: {'line': b'  120 |     operator<<(\x1b[01;36m\x1b[K__streambuf_type* __sbin\x1b[m\x1b[K)\n'}
+[2.743831] (buff_detect) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[2.743860] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:48\x1b[m\x1b[K,\n'}
+[2.743885] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.743911] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[2.743938] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[2.743966] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[2.743994] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[2.744025] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.744056] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.744093] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:667:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::basic_string_view<_CharT, _Traits>) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.744125] (buff_detect) StderrLine: {'line': b'  667 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[2.744152] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.744181] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/string_view:668:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_string_view<char>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.744210] (buff_detect) StderrLine: {'line': b'  668 |                \x1b[01;36m\x1b[Kbasic_string_view<_CharT,_Traits> __str\x1b[m\x1b[K)\n'}
+[2.744238] (buff_detect) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.744266] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[2.744292] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/locale_classes.h:40\x1b[m\x1b[K,\n'}
+[2.744319] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:41\x1b[m\x1b[K,\n'}
+[2.744346] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[2.744374] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[2.744401] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.744428] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.744455] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6531:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.744484] (buff_detect) StderrLine: {'line': b' 6531 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os,\n'}
+[2.744510] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.744549] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6531:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.744576] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Alloc\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.744603] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.744631] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.744660] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/ios_base.h:46\x1b[m\x1b[K,\n'}
+[2.744685] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ios:42\x1b[m\x1b[K,\n'}
+[2.744712] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/ostream:38\x1b[m\x1b[K,\n'}
+[2.744739] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.744764] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.744794] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:279:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.744822] (buff_detect) StderrLine: {'line': b'  279 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)\n'}
+[2.744850] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.744876] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/system_error:279:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.744902] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst std::error_code&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.744932] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.744958] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.744987] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.745015] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.745041] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:513:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.745077] (buff_detect) StderrLine: {'line': b'  513 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)\n'}
+[2.745107] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.745134] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:513:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.745166] (buff_detect) StderrLine: {'line': b'  513 |     operator<<(basic_ostream<_CharT, _Traits>& __out, \x1b[01;36m\x1b[K_CharT __c\x1b[m\x1b[K)\n'}
+[2.745192] (buff_detect) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.745217] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:518:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.745243] (buff_detect) StderrLine: {'line': b'  518 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, char __c)\n'}
+[2.745268] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.745294] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:518:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.745318] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.745346] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.745370] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.745394] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.745418] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.745443] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.745469] (buff_detect) StderrLine: {'line': b'  524 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, char __c)\n'}
+[2.745494] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.745518] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:524:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.745546] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.745573] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.745609] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.745665] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.745730] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.745791] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:530:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.745842] (buff_detect) StderrLine: {'line': b'  530 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, signed char __c)\n'}
+[2.745884] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.745921] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:530:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.745959] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Ksigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.745999] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.746044] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.746085] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.746113] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.746139] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.746165] (buff_detect) StderrLine: {'line': b'  535 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, unsigned char __c)\n'}
+[2.746190] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.746216] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:535:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.746246] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kunsigned char\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.746274] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.746299] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.746326] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.746353] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.746377] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:594:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.746402] (buff_detect) StderrLine: {'line': b'  594 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)\n'}
+[2.746427] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.746453] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:594:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.746480] (buff_detect) StderrLine: {'line': b'  594 |     operator<<(basic_ostream<_CharT, _Traits>& __out, \x1b[01;36m\x1b[Kconst _CharT* __s\x1b[m\x1b[K)\n'}
+[2.746505] (buff_detect) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.746530] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/ostream:829\x1b[m\x1b[K,\n'}
+[2.746555] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.746579] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.746604] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:321:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.746631] (buff_detect) StderrLine: {'line': b'  321 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)\n'}
+[2.746656] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.746680] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/ostream.tcc:321:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.746704] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.746736] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.746769] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.746802] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.746834] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.746870] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:611:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.746909] (buff_detect) StderrLine: {'line': b'  611 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const char* __s)\n'}
+[2.746980] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.747049] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:611:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.747111] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.747163] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.747203] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.747245] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.747281] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.747319] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:624:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.747357] (buff_detect) StderrLine: {'line': b'  624 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const signed char* __s)\n'}
+[2.747389] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.747415] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:624:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.747443] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst signed char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.747469] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.747493] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.747517] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.747541] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.747566] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:629:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.747591] (buff_detect) StderrLine: {'line': b'  629 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)\n'}
+[2.747616] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.747639] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:629:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.747668] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kconst unsigned char*\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.747698] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.747723] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.747747] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/iostream:39\x1b[m\x1b[K,\n'}
+[2.747771] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:1\x1b[m\x1b[K:\n'}
+[2.747799] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:750:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ostream, class _Tp> _Ostream&& std::operator<<(_Ostream&&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.747825] (buff_detect) StderrLine: {'line': b'  750 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(_Ostream&& __os, const _Tp& __x)\n'}
+[2.747850] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.747875] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ostream:750:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.747899] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.747925] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.747949] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.747973] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/hal/interface.h:15\x1b[m\x1b[K,\n'}
+[2.747997] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvdef.h:190\x1b[m\x1b[K,\n'}
+[2.748022] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:52\x1b[m\x1b[K,\n'}
+[2.748046] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.748097] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.748123] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/cstddef:126:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _IntegerType> constexpr std::__byte_op_t<_IntegerType> std::operator<<(std::byte, _IntegerType)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.748148] (buff_detect) StderrLine: {'line': b'  126 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(byte __b, _IntegerType __shift) noexcept\n'}
+[2.748173] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.748230] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/cstddef:126:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.748318] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_IntegerType\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.748370] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.748407] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.748444] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[2.748485] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd_wrapper.hpp:11\x1b[m\x1b[K,\n'}
+[2.748520] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.hpp:81\x1b[m\x1b[K,\n'}
+[2.748555] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/base.hpp:58\x1b[m\x1b[K,\n'}
+[2.748594] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:53\x1b[m\x1b[K,\n'}
+[2.748624] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.748649] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.748673] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:70:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Ch, class _Tr, class _Tp, __gnu_cxx::_Lock_policy _Lp> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__shared_ptr<_Tp, _Lp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.748701] (buff_detect) StderrLine: {'line': b'   70 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(std::basic_ostream<_Ch, _Tr>& __os,\n'}
+[2.748727] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.748751] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:70:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.748777] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.748802] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.748826] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.748853] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:47\x1b[m\x1b[K,\n'}
+[2.748878] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.748904] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.748930] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.748954] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:555:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.748980] (buff_detect) StderrLine: {'line': b'  555 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)\n'}
+[2.749007] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.749033] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/complex:555:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.749058] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.749093] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.749123] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.749150] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_table.h:42\x1b[m\x1b[K,\n'}
+[2.749176] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_index.h:49\x1b[m\x1b[K,\n'}
+[2.749205] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/all_indices.h:44\x1b[m\x1b[K,\n'}
+[2.749232] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/flann_base.hpp:44\x1b[m\x1b[K,\n'}
+[2.749259] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann.hpp:48\x1b[m\x1b[K,\n'}
+[2.749285] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:65\x1b[m\x1b[K,\n'}
+[2.749311] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.749336] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:79:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.749363] (buff_detect) StderrLine: {'line': b'   79 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)\n'}
+[2.749388] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.749412] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:79:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.749438] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Resetiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.749465] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.749491] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.749516] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_table.h:42\x1b[m\x1b[K,\n'}
+[2.749542] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_index.h:49\x1b[m\x1b[K,\n'}
+[2.749567] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/all_indices.h:44\x1b[m\x1b[K,\n'}
+[2.749597] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/flann_base.hpp:44\x1b[m\x1b[K,\n'}
+[2.749621] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann.hpp:48\x1b[m\x1b[K,\n'}
+[2.749646] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:65\x1b[m\x1b[K,\n'}
+[2.749672] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.749697] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:109:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.749724] (buff_detect) StderrLine: {'line': b'  109 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)\n'}
+[2.749750] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.749778] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:109:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.749802] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setiosflags\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.749828] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.749854] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.749879] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_table.h:42\x1b[m\x1b[K,\n'}
+[2.749904] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_index.h:49\x1b[m\x1b[K,\n'}
+[2.749928] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/all_indices.h:44\x1b[m\x1b[K,\n'}
+[2.749953] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/flann_base.hpp:44\x1b[m\x1b[K,\n'}
+[2.749978] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann.hpp:48\x1b[m\x1b[K,\n'}
+[2.750002] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:65\x1b[m\x1b[K,\n'}
+[2.750026] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.750051] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750082] (buff_detect) StderrLine: {'line': b'  143 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)\n'}
+[2.750107] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.750133] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:143:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.750158] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setbase\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750183] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.750209] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.750233] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_table.h:42\x1b[m\x1b[K,\n'}
+[2.750257] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_index.h:49\x1b[m\x1b[K,\n'}
+[2.750281] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/all_indices.h:44\x1b[m\x1b[K,\n'}
+[2.750306] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/flann_base.hpp:44\x1b[m\x1b[K,\n'}
+[2.750335] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann.hpp:48\x1b[m\x1b[K,\n'}
+[2.750361] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:65\x1b[m\x1b[K,\n'}
+[2.750386] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.750411] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:178:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750436] (buff_detect) StderrLine: {'line': b'  178 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)\n'}
+[2.750460] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.750485] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:178:71:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setfill<char>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750515] (buff_detect) StderrLine: {'line': b'  178 |     operator<<(basic_ostream<_CharT, _Traits>& __os, \x1b[01;36m\x1b[K_Setfill<_CharT> __f\x1b[m\x1b[K)\n'}
+[2.750540] (buff_detect) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.750564] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:208:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750592] (buff_detect) StderrLine: {'line': b'  208 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)\n'}
+[2.750617] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.750641] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:208:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.750664] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setprecision\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750697] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.750721] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.750746] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_table.h:42\x1b[m\x1b[K,\n'}
+[2.750771] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_index.h:49\x1b[m\x1b[K,\n'}
+[2.750796] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/all_indices.h:44\x1b[m\x1b[K,\n'}
+[2.750820] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/flann_base.hpp:44\x1b[m\x1b[K,\n'}
+[2.750844] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann.hpp:48\x1b[m\x1b[K,\n'}
+[2.750870] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:65\x1b[m\x1b[K,\n'}
+[2.750894] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.750919] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:238:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.750945] (buff_detect) StderrLine: {'line': b'  238 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)\n'}
+[2.750970] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.750995] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:238:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.751020] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::_Setw\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751047] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.751078] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.751105] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_table.h:42\x1b[m\x1b[K,\n'}
+[2.751129] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_index.h:49\x1b[m\x1b[K,\n'}
+[2.751154] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/all_indices.h:44\x1b[m\x1b[K,\n'}
+[2.751180] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/flann_base.hpp:44\x1b[m\x1b[K,\n'}
+[2.751204] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann.hpp:48\x1b[m\x1b[K,\n'}
+[2.751228] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:65\x1b[m\x1b[K,\n'}
+[2.751252] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.751278] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits, class _MoneyT> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_money<_MoneyT>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751306] (buff_detect) StderrLine: {'line': b'  311 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_money<_MoneyT> __f)\n'}
+[2.751331] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.751355] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:311:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.751379] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_MoneyT\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751404] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.751433] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.751461] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_table.h:42\x1b[m\x1b[K,\n'}
+[2.751489] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/lsh_index.h:49\x1b[m\x1b[K,\n'}
+[2.751513] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/all_indices.h:44\x1b[m\x1b[K,\n'}
+[2.751538] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann/flann_base.hpp:44\x1b[m\x1b[K,\n'}
+[2.751562] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/flann.hpp:48\x1b[m\x1b[K,\n'}
+[2.751588] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:65\x1b[m\x1b[K,\n'}
+[2.751612] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.751639] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:363:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Put_time<_CharT>) [with _CharT = char; _Traits = std::char_traits<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751664] (buff_detect) StderrLine: {'line': b'  363 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __os, _Put_time<_CharT> __f)\n'}
+[2.751688] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.751712] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/iomanip:363:72:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::_Put_time<char>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751738] (buff_detect) StderrLine: {'line': b'  363 |     operator<<(basic_ostream<_CharT, _Traits>& __os, \x1b[01;36m\x1b[K_Put_time<_CharT> __f\x1b[m\x1b[K)\n'}
+[2.751763] (buff_detect) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.751787] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22\x1b[m\x1b[K,\n'}
+[2.751812] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.751836] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.751862] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:6\x1b[m\x1b[K:\n'}
+[2.751886] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/thread:92:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::thread::id)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.751911] (buff_detect) StderrLine: {'line': b'   92 |     \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<<(basic_ostream<_CharT, _Traits>& __out, thread::id __id)\n'}
+[2.751936] (buff_detect) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.751962] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/thread:92:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.751997] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::empty\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99) to type \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::id\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.752025] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.752049] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.752078] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/matx.hpp:542\x1b[m\x1b[K,\n'}
+[2.752104] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:56\x1b[m\x1b[K,\n'}
+[2.752128] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.752153] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.752177] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/matx.inl.hpp:119:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _T2, int m, int n> cv::MatxCommaInitializer<_Tp, m, n> cv::operator<<(const cv::Matx<_Tp1, m, n>&, _T2)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.752202] (buff_detect) StderrLine: {'line': b'  119 | MatxCommaInitializer<_Tp, m, n> \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (const Matx<_Tp, m, n>& mtx, _T2 val)\n'}
+[2.752227] (buff_detect) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.752253] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/matx.inl.hpp:119:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.752277] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Matx<_Tp1, m, n>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.752309] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.752334] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.752360] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/matx.hpp:542\x1b[m\x1b[K,\n'}
+[2.752385] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:56\x1b[m\x1b[K,\n'}
+[2.752410] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.752435] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.752460] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/matx.inl.hpp:742:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class _T2, int cn> cv::VecCommaInitializer<_Tp, cn> cv::operator<<(const cv::Vec<_Tp, n>&, _T2)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.752486] (buff_detect) StderrLine: {'line': b'  742 | VecCommaInitializer<_Tp, cn> \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (const Vec<_Tp, cn>& vec, _T2 val)\n'}
+[2.752510] (buff_detect) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.752537] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/matx.inl.hpp:742:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.752562] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Vec<_Tp, n>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.752587] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.752611] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.752635] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/mat.hpp:3795\x1b[m\x1b[K,\n'}
+[2.752658] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:58\x1b[m\x1b[K,\n'}
+[2.752682] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.752707] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.752732] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/mat.inl.hpp:2997:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class T2> cv::MatCommaInitializer_<_Tp> cv::operator<<(const cv::Mat_<_Tp>&, T2)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.752757] (buff_detect) StderrLine: {'line': b' 2997 | MatCommaInitializer_<_Tp> \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (const Mat_<_Tp>& m, T2 val)\n'}
+[2.752782] (buff_detect) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.752809] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/mat.inl.hpp:2997:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.752834] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} is not derived from \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Mat_<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.752860] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.752885] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.752909] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:59\x1b[m\x1b[K,\n'}
+[2.752933] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.752958] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.752983] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/persistence.hpp:1196:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> cv::FileStorage& cv::operator<<(cv::FileStorage&, const _Tp&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753007] (buff_detect) StderrLine: {'line': b' 1196 | FileStorage& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (FileStorage& fs, const _Tp& value)\n'}
+[2.753031] (buff_detect) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.753058] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/persistence.hpp:1196:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.753089] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753114] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.753141] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.753166] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.753190] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.753215] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.753239] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:99:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Complex<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753267] (buff_detect) StderrLine: {'line': b'   99 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const Complex<_Tp>& c)\n'}
+[2.753292] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.753316] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:99:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.753342] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753366] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.753390] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.753414] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.753438] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.753462] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.753486] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:105:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const std::vector<cv::Point_<_Tp> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753511] (buff_detect) StderrLine: {'line': b'  105 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const std::vector<Point_<_Tp> >& vec)\n'}
+[2.753536] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.753560] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:105:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.753584] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753613] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.753637] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.753662] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.753687] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.753711] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.753735] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:112:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const std::vector<cv::Point3_<_Tp> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753760] (buff_detect) StderrLine: {'line': b'  112 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const std::vector<Point3_<_Tp> >& vec)\n'}
+[2.753784] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.753808] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:112:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.753832] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.753856] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.753880] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.753903] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.753928] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.753951] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.753976] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:119:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, int m, int n> std::ostream& cv::operator<<(std::ostream&, const cv::Matx<_Tp, m, n>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754004] (buff_detect) StderrLine: {'line': b'  119 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const Matx<_Tp, m, n>& matx)\n'}
+[2.754029] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.754053] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:119:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.754081] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754106] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.754131] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.754159] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.754184] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.754209] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.754232] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:125:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Point_<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754256] (buff_detect) StderrLine: {'line': b'  125 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const Point_<_Tp>& p)\n'}
+[2.754280] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.754304] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:125:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.754327] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754351] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.754375] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.754401] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.754425] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.754450] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.754473] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:132:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Point3_<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754497] (buff_detect) StderrLine: {'line': b'  132 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const Point3_<_Tp>& p)\n'}
+[2.754520] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.754544] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:132:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.754568] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754592] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.754615] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.754639] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.754663] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.754688] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.754715] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:139:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, int n> std::ostream& cv::operator<<(std::ostream&, const cv::Vec<_Tp, m>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754739] (buff_detect) StderrLine: {'line': b'  139 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const Vec<_Tp, n>& vec)\n'}
+[2.754764] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.754789] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:139:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.754813] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754839] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.754864] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.754888] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.754912] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.754936] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.754959] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:161:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Size_<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.754984] (buff_detect) StderrLine: {'line': b'  161 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const Size_<_Tp>& size)\n'}
+[2.755008] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.755032] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:161:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.755057] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755092] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.755116] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.755141] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.755166] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.755191] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.755215] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:167:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> std::ostream& cv::operator<<(std::ostream&, const cv::Rect_<_Tp>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755239] (buff_detect) StderrLine: {'line': b'  167 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const Rect_<_Tp>& rect)\n'}
+[2.755266] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.755290] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:167:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.755314] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:243:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  couldn\xe2\x80\x99t deduce template parameter \xe2\x80\x98\x1b[01m\x1b[K_Tp\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755339] (buff_detect) StderrLine: {'line': b'  243 |                 cout << \x1b[01;36m\x1b[Kempty\x1b[m\x1b[K << endl;\n'}
+[2.755363] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.755387] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:59\x1b[m\x1b[K,\n'}
+[2.755411] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.755436] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.755461] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/persistence.hpp:793:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::FileStorage& cv::operator<<(cv::FileStorage&, const String&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755486] (buff_detect) StderrLine: {'line': b'  793 | CV_EXPORTS FileStorage& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (FileStorage& fs, const String& str);\n'}
+[2.755509] (buff_detect) StderrLine: {'line': b'      |                         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.755533] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/persistence.hpp:793:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kcv::FileStorage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755559] (buff_detect) StderrLine: {'line': b'  793 | CV_EXPORTS FileStorage& operator << (\x1b[01;36m\x1b[KFileStorage& fs\x1b[m\x1b[K, const String& str);\n'}
+[2.755585] (buff_detect) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.755609] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/persistence.hpp:1211:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::FileStorage& cv::operator<<(cv::FileStorage&, const char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755633] (buff_detect) StderrLine: {'line': b' 1211 | FileStorage& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (FileStorage& fs, const char* str)\n'}
+[2.755657] (buff_detect) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.755681] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/persistence.hpp:1211:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kcv::FileStorage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755708] (buff_detect) StderrLine: {'line': b' 1211 | FileStorage& operator << (\x1b[01;36m\x1b[KFileStorage& fs\x1b[m\x1b[K, const char* str)\n'}
+[2.755732] (buff_detect) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.755756] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/persistence.hpp:1219:14:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::FileStorage& cv::operator<<(cv::FileStorage&, char*)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755783] (buff_detect) StderrLine: {'line': b' 1219 | FileStorage& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (FileStorage& fs, char* value)\n'}
+[2.755808] (buff_detect) StderrLine: {'line': b'      |              \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.755832] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/persistence.hpp:1219:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kcv::FileStorage&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755857] (buff_detect) StderrLine: {'line': b' 1219 | FileStorage& operator << (\x1b[01;36m\x1b[KFileStorage& fs\x1b[m\x1b[K, char* value)\n'}
+[2.755881] (buff_detect) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.755904] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.755928] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.755954] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3164:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::String& cv::operator<<(cv::String&, cv::Ptr<cv::Formatted>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.755982] (buff_detect) StderrLine: {'line': b' 3164 | String& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (String& out, Ptr<Formatted> fmtd)\n'}
+[2.756007] (buff_detect) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.756031] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3164:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kcv::String&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.756056] (buff_detect) StderrLine: {'line': b' 3164 | String& operator << (\x1b[01;36m\x1b[KString& out\x1b[m\x1b[K, Ptr<Formatted> fmtd)\n'}
+[2.756089] (buff_detect) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.756116] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3173:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kcv::String& cv::operator<<(cv::String&, const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756141] (buff_detect) StderrLine: {'line': b' 3173 | String& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (String& out, const Mat& mtx)\n'}
+[2.756165] (buff_detect) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.756188] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3173:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::basic_ostream<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kcv::String&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::__cxx11::basic_string<char>&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[2.756213] (buff_detect) StderrLine: {'line': b' 3173 | String& operator << (\x1b[01;36m\x1b[KString& out\x1b[m\x1b[K, const Mat& mtx)\n'}
+[2.756237] (buff_detect) StderrLine: {'line': b'      |                      \x1b[01;36m\x1b[K~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.756264] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3416\x1b[m\x1b[K,\n'}
+[2.756289] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.756312] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.756337] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:78:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& cv::operator<<(std::ostream&, cv::Ptr<cv::Formatted>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756360] (buff_detect) StderrLine: {'line': b'   78 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, Ptr<Formatted> fmtd)\n'}
+[2.756386] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.756410] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:78:62:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kcv::Ptr<cv::Formatted>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756435] (buff_detect) StderrLine: {'line': b'   78 | std::ostream& operator << (std::ostream& out, \x1b[01;36m\x1b[KPtr<Formatted> fmtd\x1b[m\x1b[K)\n'}
+[2.756459] (buff_detect) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[2.756485] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:87:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& cv::operator<<(std::ostream&, const cv::Mat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756509] (buff_detect) StderrLine: {'line': b'   87 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const Mat& mtx)\n'}
+[2.756534] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.756558] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:87:58:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::Mat&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756582] (buff_detect) StderrLine: {'line': b'   87 | std::ostream& operator << (std::ostream& out, \x1b[01;36m\x1b[Kconst Mat& mtx\x1b[m\x1b[K)\n'}
+[2.756605] (buff_detect) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.756629] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:93:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& cv::operator<<(std::ostream&, const cv::UMat&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756653] (buff_detect) StderrLine: {'line': b'   93 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const UMat& m)\n'}
+[2.756678] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.756702] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:93:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::UMat&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756726] (buff_detect) StderrLine: {'line': b'   93 | std::ostream& operator << (std::ostream& out, \x1b[01;36m\x1b[Kconst UMat& m\x1b[m\x1b[K)\n'}
+[2.756757] (buff_detect) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[2.756783] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:172:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& cv::operator<<(std::ostream&, const cv::MatSize&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756814] (buff_detect) StderrLine: {'line': b'  172 | static inline std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const MatSize& msize)\n'}
+[2.756838] (buff_detect) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.756863] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:172:76:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::MatSize&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756887] (buff_detect) StderrLine: {'line': b'  172 | ic inline std::ostream& operator << (std::ostream& out, \x1b[01;36m\x1b[Kconst MatSize& msize\x1b[m\x1b[K)\n'}
+[2.756911] (buff_detect) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[2.756935] (buff_detect) StderrLine: {'line': b'\n'}
+[2.756959] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:184:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& cv::operator<<(std::ostream&, cv::Range&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.756983] (buff_detect) StderrLine: {'line': b'  184 | static inline std::ostream &\x1b[01;36m\x1b[Koperator\x1b[m\x1b[K<< (std::ostream &s, cv::Range &r)\n'}
+[2.757007] (buff_detect) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.757032] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/cvstd.inl.hpp:184:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kcv::Range&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.757057] (buff_detect) StderrLine: {'line': b'  184 | static inline std::ostream &operator<< (std::ostream &s, \x1b[01;36m\x1b[Kcv::Range &r\x1b[m\x1b[K)\n'}
+[2.757089] (buff_detect) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[2.757114] (buff_detect) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core.hpp:3417\x1b[m\x1b[K,\n'}
+[2.757139] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/opencv.hpp:52\x1b[m\x1b[K,\n'}
+[2.757164] (buff_detect) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:2\x1b[m\x1b[K:\n'}
+[2.757190] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/utility.hpp:398:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::ostream& cv::operator<<(std::ostream&, const cv::TickMeter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.757215] (buff_detect) StderrLine: {'line': b'  398 | std::ostream& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K << (std::ostream& out, const TickMeter& tm)\n'}
+[2.757239] (buff_detect) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.757263] (buff_detect) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/include/opencv4/opencv2/core/utility.hpp:398:64:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 2 from \xe2\x80\x98\x1b[01m\x1b[K<unresolved overloaded function type>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst cv::TickMeter&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.757292] (buff_detect) StderrLine: {'line': b'  398 | std::ostream& operator << (std::ostream& out, \x1b[01;36m\x1b[Kconst TickMeter& tm\x1b[m\x1b[K)\n'}
+[2.757317] (buff_detect) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[2.810423] (-) TimerEvent: {}
+[2.910766] (-) TimerEvent: {}
+[3.011218] (-) TimerEvent: {}
+[3.111862] (-) TimerEvent: {}
+[3.212222] (-) TimerEvent: {}
+[3.312657] (-) TimerEvent: {}
+[3.412977] (-) TimerEvent: {}
+[3.513339] (-) TimerEvent: {}
+[3.613725] (-) TimerEvent: {}
+[3.714123] (-) TimerEvent: {}
+[3.814483] (-) TimerEvent: {}
+[3.914791] (-) TimerEvent: {}
+[4.015138] (-) TimerEvent: {}
+[4.115554] (-) TimerEvent: {}
+[4.215957] (-) TimerEvent: {}
+[4.316272] (-) TimerEvent: {}
+[4.416606] (-) TimerEvent: {}
+[4.516954] (-) TimerEvent: {}
+[4.617508] (-) TimerEvent: {}
+[4.633365] (buff_detect) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/buff_detect.dir/build.make:76\xef\xbc\x9aCMakeFiles/buff_detect.dir/src/buff_detect.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.633770] (buff_detect) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/buff_detect.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.634102] (buff_detect) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.635197] (buff_detect) CommandEnded: {'returncode': 2}
+[4.658581] (buff_detect) JobEnded: {'identifier': 'buff_detect', 'rc': 2}
+[4.669232] (-) EventReactorShutdown: {}

@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (buff_detect) JobQueued: {'identifier': 'buff_detect', 'dependencies': OrderedDict()}
+[0.000277] (buff_detect) JobStarted: {'identifier': 'buff_detect'}
+[0.005482] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'cmake'}
+[0.005794] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'build'}
+[0.006157] (buff_detect) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/spaaaaace/Ros2_buff_detect/build/buff_detect', '--', '-j22', '-l22'], 'cwd': '/home/spaaaaace/Ros2_buff_detect/build/buff_detect', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3R4DY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install/buff_detect:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'spaaaaace'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/spaaaaace/Ros2_buff_detect/build/buff_detect'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install/buff_detect:/opt/ros/humble')]), 'shell': False}
+[0.031729] (buff_detect) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o\x1b[0m\n'}
+[0.099390] (-) TimerEvent: {}
+[0.199706] (-) TimerEvent: {}
+[0.300024] (-) TimerEvent: {}
+[0.400358] (-) TimerEvent: {}
+[0.500691] (-) TimerEvent: {}
+[0.601000] (-) TimerEvent: {}
+[0.701332] (-) TimerEvent: {}
+[0.801695] (-) TimerEvent: {}
+[0.902043] (-) TimerEvent: {}
+[1.002371] (-) TimerEvent: {}
+[1.102717] (-) TimerEvent: {}
+[1.203077] (-) TimerEvent: {}
+[1.303435] (-) TimerEvent: {}
+[1.403785] (-) TimerEvent: {}
+[1.504112] (-) TimerEvent: {}
+[1.604439] (-) TimerEvent: {}
+[1.704826] (-) TimerEvent: {}
+[1.805217] (-) TimerEvent: {}
+[1.905565] (-) TimerEvent: {}
+[2.005925] (-) TimerEvent: {}
+[2.106272] (-) TimerEvent: {}
+[2.206597] (-) TimerEvent: {}
+[2.306944] (-) TimerEvent: {}
+[2.407289] (-) TimerEvent: {}
+[2.507648] (-) TimerEvent: {}
+[2.607982] (-) TimerEvent: {}
+[2.708342] (-) TimerEvent: {}
+[2.808701] (-) TimerEvent: {}
+[2.909044] (-) TimerEvent: {}
+[3.009423] (-) TimerEvent: {}
+[3.109769] (-) TimerEvent: {}
+[3.210156] (-) TimerEvent: {}
+[3.310490] (-) TimerEvent: {}
+[3.410826] (-) TimerEvent: {}
+[3.511116] (-) TimerEvent: {}
+[3.611433] (-) TimerEvent: {}
+[3.711810] (-) TimerEvent: {}
+[3.812140] (-) TimerEvent: {}
+[3.912490] (-) TimerEvent: {}
+[4.012980] (-) TimerEvent: {}
+[4.113251] (-) TimerEvent: {}
+[4.213589] (-) TimerEvent: {}
+[4.313977] (-) TimerEvent: {}
+[4.414260] (-) TimerEvent: {}
+[4.514601] (-) TimerEvent: {}
+[4.614999] (-) TimerEvent: {}
+[4.715319] (-) TimerEvent: {}
+[4.815643] (-) TimerEvent: {}
+[4.915893] (-) TimerEvent: {}
+[5.016159] (-) TimerEvent: {}
+[5.116509] (-) TimerEvent: {}
+[5.216800] (-) TimerEvent: {}
+[5.317074] (-) TimerEvent: {}
+[5.417347] (-) TimerEvent: {}
+[5.503777] (buff_detect) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable buff_detect\x1b[0m\n'}
+[5.517441] (-) TimerEvent: {}
+[5.612081] (buff_detect) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410\n'}
+[5.612512] (buff_detect) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[5.617520] (-) TimerEvent: {}
+[5.717780] (-) TimerEvent: {}
+[5.818106] (-) TimerEvent: {}
+[5.875844] (buff_detect) StdoutLine: {'line': b'[100%] Built target buff_detect\n'}
+[5.883534] (buff_detect) CommandEnded: {'returncode': 0}
+[5.896214] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'install'}
+[5.899211] (buff_detect) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/spaaaaace/Ros2_buff_detect/build/buff_detect'], 'cwd': '/home/spaaaaace/Ros2_buff_detect/build/buff_detect', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.3R4DY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install/buff_detect:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'spaaaaace'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/spaaaaace/Ros2_buff_detect/build/buff_detect'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/spaaaaace/Ros2_buff_detect/install/buff_detect:/opt/ros/humble')]), 'shell': False}
+[5.901098] (buff_detect) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.901226] (buff_detect) StdoutLine: {'line': b'-- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/lib/buff_detect/buff_detect\n'}
+[5.903296] (buff_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/spaaaaace/Ros2_buff_detect/install/buff_detect/lib/buff_detect/buff_detect" to ""\n'}
+[5.903397] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/ament_index/resource_index/package_run_dependencies/buff_detect\n'}
+[5.903435] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/ament_index/resource_index/parent_prefix_path/buff_detect\n'}
+[5.903473] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/ament_prefix_path.sh\n'}
+[5.903510] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/ament_prefix_path.dsv\n'}
+[5.903547] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/path.sh\n'}
+[5.903583] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/path.dsv\n'}
+[5.903617] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.bash\n'}
+[5.903659] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.sh\n'}
+[5.903694] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.zsh\n'}
+[5.903731] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.dsv\n'}
+[5.903764] (buff_detect) StdoutLine: {'line': b'-- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/package.dsv\n'}
+[5.903852] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/ament_index/resource_index/packages/buff_detect\n'}
+[5.903888] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/cmake/buff_detectConfig.cmake\n'}
+[5.903943] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/cmake/buff_detectConfig-version.cmake\n'}
+[5.903980] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/package.xml\n'}
+[5.904975] (buff_detect) CommandEnded: {'returncode': 0}
+[5.918171] (-) TimerEvent: {}
+[5.926662] (buff_detect) JobEnded: {'identifier': 'buff_detect', 'rc': 0}
+[5.927042] (-) EventReactorShutdown: {}

@@ -1,0 +1,22 @@
+[0.009s] Invoking command in '/home/spaaaaace/Ros2_mindvision/build/buff_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/build/buff_detect -- -j22 -l22
+[0.037s] [100%] Built target buff_detect
+[0.040s] Invoked command in '/home/spaaaaace/Ros2_mindvision/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/build/buff_detect -- -j22 -l22
+[0.057s] Invoking command in '/home/spaaaaace/Ros2_mindvision/build/buff_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/spaaaaace/Ros2_mindvision/build/buff_detect
+[0.058s] -- Install configuration: ""
+[0.058s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/lib/buff_detect/buff_detect
+[0.058s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/ament_index/resource_index/package_run_dependencies/buff_detect
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/ament_index/resource_index/parent_prefix_path/buff_detect
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/environment/ament_prefix_path.sh
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/environment/ament_prefix_path.dsv
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/environment/path.sh
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/environment/path.dsv
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/local_setup.bash
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/local_setup.sh
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/local_setup.zsh
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/local_setup.dsv
+[0.059s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/package.dsv
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/ament_index/resource_index/packages/buff_detect
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/cmake/buff_detectConfig.cmake
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/cmake/buff_detectConfig-version.cmake
+[0.059s] -- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/package.xml
+[0.060s] Invoked command in '/home/spaaaaace/Ros2_mindvision/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /home/spaaaaace/Ros2_mindvision/build/buff_detect

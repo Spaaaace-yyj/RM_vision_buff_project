@@ -1,0 +1,2 @@
+Invoking command in '/home/spaaaaace/Ros2_mindvision/build/camera_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/camera_subscriber -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/install/camera_subscriber
+Invoked command in '/home/spaaaaace/Ros2_mindvision/build/camera_subscriber' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/camera_subscriber -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/install/camera_subscriber

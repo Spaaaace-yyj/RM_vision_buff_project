@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.000388] (buff_detect) JobQueued: {'identifier': 'buff_detect', 'dependencies': OrderedDict()}
+[0.000565] (buff_detect) JobStarted: {'identifier': 'buff_detect'}
+[0.005668] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'cmake'}
+[0.006012] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'build'}
+[0.006466] (buff_detect) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/spaaaaace/Ros2_mindvision/build/buff_detect', '--', '-j22', '-l22'], 'cwd': '/home/spaaaaace/Ros2_mindvision/build/buff_detect', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/spaaaaace/Ros2_mindvision/install/mindvision_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/spaaaaace/Ros2_mindvision/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7WBSY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/spaaaaace/Ros2_mindvision/install/mindvision_camera:/home/spaaaaace/Ros2_mindvision/install/buff_detect:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'spaaaaace'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/spaaaaace/Ros2_mindvision/build/buff_detect'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/spaaaaace/Ros2_mindvision/install/mindvision_camera:/home/spaaaaace/Ros2_mindvision/install/buff_detect:/opt/ros/humble')]), 'shell': False}
+[0.035170] (buff_detect) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o\x1b[0m\n'}
+[0.099756] (-) TimerEvent: {}
+[0.200072] (-) TimerEvent: {}
+[0.300419] (-) TimerEvent: {}
+[0.400831] (-) TimerEvent: {}
+[0.501260] (-) TimerEvent: {}
+[0.601770] (-) TimerEvent: {}
+[0.702243] (-) TimerEvent: {}
+[0.802682] (-) TimerEvent: {}
+[0.903018] (-) TimerEvent: {}
+[1.003360] (-) TimerEvent: {}
+[1.103733] (-) TimerEvent: {}
+[1.204059] (-) TimerEvent: {}
+[1.304374] (-) TimerEvent: {}
+[1.404763] (-) TimerEvent: {}
+[1.505170] (-) TimerEvent: {}
+[1.605510] (-) TimerEvent: {}
+[1.705861] (-) TimerEvent: {}
+[1.806300] (-) TimerEvent: {}
+[1.906887] (-) TimerEvent: {}
+[2.007536] (-) TimerEvent: {}
+[2.107980] (-) TimerEvent: {}
+[2.208361] (-) TimerEvent: {}
+[2.308704] (-) TimerEvent: {}
+[2.409033] (-) TimerEvent: {}
+[2.509390] (-) TimerEvent: {}
+[2.609755] (-) TimerEvent: {}
+[2.710110] (-) TimerEvent: {}
+[2.810477] (-) TimerEvent: {}
+[2.910834] (-) TimerEvent: {}
+[3.011199] (-) TimerEvent: {}
+[3.111565] (-) TimerEvent: {}
+[3.211987] (-) TimerEvent: {}
+[3.312284] (-) TimerEvent: {}
+[3.412632] (-) TimerEvent: {}
+[3.513121] (-) TimerEvent: {}
+[3.613688] (-) TimerEvent: {}
+[3.714290] (-) TimerEvent: {}
+[3.814671] (-) TimerEvent: {}
+[3.915008] (-) TimerEvent: {}
+[4.015335] (-) TimerEvent: {}
+[4.115676] (-) TimerEvent: {}
+[4.215985] (-) TimerEvent: {}
+[4.316286] (-) TimerEvent: {}
+[4.416598] (-) TimerEvent: {}
+[4.517001] (-) TimerEvent: {}
+[4.617412] (-) TimerEvent: {}
+[4.717854] (-) TimerEvent: {}
+[4.818156] (-) TimerEvent: {}
+[4.918466] (-) TimerEvent: {}
+[5.018812] (-) TimerEvent: {}
+[5.119154] (-) TimerEvent: {}
+[5.219506] (-) TimerEvent: {}
+[5.319872] (-) TimerEvent: {}
+[5.420229] (-) TimerEvent: {}
+[5.520604] (-) TimerEvent: {}
+[5.620956] (-) TimerEvent: {}
+[5.721301] (-) TimerEvent: {}
+[5.821657] (-) TimerEvent: {}
+[5.921980] (-) TimerEvent: {}
+[6.022258] (-) TimerEvent: {}
+[6.122572] (-) TimerEvent: {}
+[6.222935] (-) TimerEvent: {}
+[6.252452] (buff_detect) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable buff_detect\x1b[0m\n'}
+[6.323058] (-) TimerEvent: {}
+[6.365099] (buff_detect) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410\n'}
+[6.365344] (buff_detect) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410\n'}
+[6.423178] (-) TimerEvent: {}
+[6.523523] (-) TimerEvent: {}
+[6.623859] (-) TimerEvent: {}
+[6.694807] (buff_detect) StdoutLine: {'line': b'[100%] Built target buff_detect\n'}
+[6.702913] (buff_detect) CommandEnded: {'returncode': 0}
+[6.720050] (buff_detect) JobProgress: {'identifier': 'buff_detect', 'progress': 'install'}
+[6.723231] (buff_detect) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/spaaaaace/Ros2_mindvision/build/buff_detect'], 'cwd': '/home/spaaaaace/Ros2_mindvision/build/buff_detect', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'root'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/spaaaaace/Ros2_mindvision/install/mindvision_camera/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/spaaaaace/Ros2_mindvision/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', ':/usr/local/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.7WBSY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/usr/bin/su'), ('AMENT_PREFIX_PATH', '/home/spaaaaace/Ros2_mindvision/install/mindvision_camera:/home/spaaaaace/Ros2_mindvision/install/buff_detect:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('SUDO_USER', 'spaaaaace'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/spaaaaace/Ros2_mindvision/build/buff_detect'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/spaaaaace/Ros2_mindvision/install/mindvision_camera:/home/spaaaaace/Ros2_mindvision/install/buff_detect:/opt/ros/humble')]), 'shell': False}
+[6.724120] (-) TimerEvent: {}
+[6.725131] (buff_detect) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.725278] (buff_detect) StdoutLine: {'line': b'-- Installing: /home/spaaaaace/Ros2_mindvision/install/buff_detect/lib/buff_detect/buff_detect\n'}
+[6.727693] (buff_detect) StdoutLine: {'line': b'-- Set runtime path of "/home/spaaaaace/Ros2_mindvision/install/buff_detect/lib/buff_detect/buff_detect" to ""\n'}
+[6.727807] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/ament_index/resource_index/package_run_dependencies/buff_detect\n'}
+[6.727920] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/ament_index/resource_index/parent_prefix_path/buff_detect\n'}
+[6.728003] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/environment/ament_prefix_path.sh\n'}
+[6.728095] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/environment/ament_prefix_path.dsv\n'}
+[6.728178] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/environment/path.sh\n'}
+[6.728250] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/environment/path.dsv\n'}
+[6.728319] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/local_setup.bash\n'}
+[6.728384] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/local_setup.sh\n'}
+[6.728448] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/local_setup.zsh\n'}
+[6.728524] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/local_setup.dsv\n'}
+[6.728809] (buff_detect) StdoutLine: {'line': b'-- Installing: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/package.dsv\n'}
+[6.729122] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/ament_index/resource_index/packages/buff_detect\n'}
+[6.729263] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/cmake/buff_detectConfig.cmake\n'}
+[6.729304] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/cmake/buff_detectConfig-version.cmake\n'}
+[6.729339] (buff_detect) StdoutLine: {'line': b'-- Up-to-date: /home/spaaaaace/Ros2_mindvision/install/buff_detect/share/buff_detect/package.xml\n'}
+[6.729626] (buff_detect) CommandEnded: {'returncode': 0}
+[6.755736] (buff_detect) JobEnded: {'identifier': 'buff_detect', 'rc': 0}
+[6.756286] (-) EventReactorShutdown: {}

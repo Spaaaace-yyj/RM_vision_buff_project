@@ -1,0 +1,49 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:6[m[K:
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::Ros2INFO(std::string)[m[K’:
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:33:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   33 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"%s"[m[K, info);
+      |                                                 [01;35m[K^~~~[m[K
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:33:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   33 |                 RCLCPP_INFO(this->get_logger(), "[01;36m[K%s[m[K", info);
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kchar*[m[K
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:143:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  143 |                         for (int i = 0; [01;35m[Ki < contours.size()[m[K; i++) {
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:173:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  173 |                         if ((minID >= 0 && [01;35m[KminID <= contours.size()[m[K) && hierarchies[minID][3] >= 0) {
+      |                                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:182:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  182 |                         for (int i = 0; [01;35m[Ki < contours_close.size()[m[K; i++) {
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:194:146:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  194 | [i][2]][0] != -1 && hierarchies_close[hierarchies_close[i][2]][0] < contours_close.size()) {
+
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:212:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  212 |                                 if (maxID >= 0 && [01;35m[KmaxID < contours_close.size()[m[K) {
+      |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:233:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradiu_buff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  233 |                         double [01;35m[Kradiu_buff[m[K = 0;
+      |                                [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:247:71:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KwaitKey[m[K’
+  247 |                         node->Ros2INFO("Can't get frame from camera!")
+      |                                                                       [01;31m[K^[m[K
+      |                                                                       [32m[K;[m[K
+  248 |                         [32m[KwaitKey[m[K(10);
+      |                         [32m[K~~~~~~~[m[K                                        
+gmake[2]: *** [CMakeFiles/buff_detect.dir/build.make:76：CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/buff_detect.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,5 @@
+[0.008s] Invoking command in '/home/spaaaaace/Ros2_mindvision/build/mindvision_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/build/mindvision_camera -- -j22 -l22
+[0.017s] [0mCMake Error: The source directory "/home/spaaaaace/Ros2_mindvision/src/mindvision_camera" does not exist.
+[0.017s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.018s] gmake: *** [Makefile:308：cmake_check_build_system] 错误 1
+[0.019s] Invoked command in '/home/spaaaaace/Ros2_mindvision/build/mindvision_camera' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/build/mindvision_camera -- -j22 -l22

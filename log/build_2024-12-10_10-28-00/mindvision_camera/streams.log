@@ -1,0 +1,80 @@
+[0.007s] Invoking command in '/home/spaaaaace/Ros2_mindvision/build/mindvision_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/mindvision_camera -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/install/mindvision_camera
+[0.042s] -- The C compiler identification is GNU 11.4.0
+[0.077s] -- The CXX compiler identification is GNU 11.4.0
+[0.086s] -- Detecting C compiler ABI info
+[0.127s] -- Detecting C compiler ABI info - done
+[0.132s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.133s] -- Detecting C compile features
+[0.133s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.178s] -- Detecting CXX compiler ABI info - done
+[0.189s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.189s] -- Detecting CXX compile features
+[0.189s] -- Detecting CXX compile features - done
+[0.190s] -- Found ament_cmake_auto: 1.3.10 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.284s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.390s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.393s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.397s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.404s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.414s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.440s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.441s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.505s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.522s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.547s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.551s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.594s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.595s] -- Found Threads: TRUE  
+[0.701s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.711s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.711s] -- Configured cppcheck include dirs: /home/spaaaaace/Ros2_mindvision/src/mindvision_camera/mvsdk/include
+[0.711s] -- Configured cppcheck exclude dirs and/or files: 
+[0.711s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.712s] -- Added test 'lint_cmake' to check CMake code style
+[0.712s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.712s] -- Added test 'xmllint' to check XML markup files
+[0.713s] -- Configuring done (0.7s)
+[0.721s] -- Generating done (0.0s)
+[0.722s] -- Build files have been written to: /home/spaaaaace/Ros2_mindvision/build/mindvision_camera
+[0.728s] Invoked command in '/home/spaaaaace/Ros2_mindvision/build/mindvision_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/mindvision_camera -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/install/mindvision_camera
+[0.729s] Invoking command in '/home/spaaaaace/Ros2_mindvision/build/mindvision_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/build/mindvision_camera -- -j22 -l22
+[0.746s] [ 25%] [32mBuilding CXX object CMakeFiles/mindvision_camera_node.dir/rclcpp_components/node_main_mindvision_camera_node.cpp.o[0m
+[0.747s] [ 50%] [32mBuilding CXX object CMakeFiles/mindvision_camera.dir/src/mv_camera_node.cpp.o[0m
+[2.399s] [ 75%] [32m[1mLinking CXX executable mindvision_camera_node[0m
+[2.461s] [ 75%] Built target mindvision_camera_node
+[2.593s] [100%] [32m[1mLinking CXX shared library libmindvision_camera.so[0m
+[2.673s] [100%] Built target mindvision_camera
+[2.681s] Invoked command in '/home/spaaaaace/Ros2_mindvision/build/mindvision_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/build/mindvision_camera -- -j22 -l22
+[2.702s] Invoking command in '/home/spaaaaace/Ros2_mindvision/build/mindvision_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/spaaaaace/Ros2_mindvision/build/mindvision_camera
+[2.704s] -- Install configuration: ""
+[2.704s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/lib/mindvision_camera/mindvision_camera_node
+[2.705s] -- Set runtime path of "/home/spaaaaace/Ros2_mindvision/install/mindvision_camera/lib/mindvision_camera/mindvision_camera_node" to ""
+[2.705s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/environment/library_path.sh
+[2.705s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/environment/library_path.dsv
+[2.705s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/lib/libmindvision_camera.so
+[2.706s] -- Set runtime path of "/home/spaaaaace/Ros2_mindvision/install/mindvision_camera/lib/libmindvision_camera.so" to ""
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/config
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/config/camera_params.yaml
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/config/camera_info.yaml
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/launch
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/launch/mv_launch.py
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/ament_index/resource_index/package_run_dependencies/mindvision_camera
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/ament_index/resource_index/parent_prefix_path/mindvision_camera
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/environment/ament_prefix_path.sh
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/environment/ament_prefix_path.dsv
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/environment/path.sh
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/environment/path.dsv
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/local_setup.bash
+[2.706s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/local_setup.sh
+[2.707s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/local_setup.zsh
+[2.707s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/local_setup.dsv
+[2.707s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/package.dsv
+[2.707s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/ament_index/resource_index/packages/mindvision_camera
+[2.707s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/ament_index/resource_index/rclcpp_components/mindvision_camera
+[2.707s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.707s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[2.707s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/cmake/mindvision_cameraConfig.cmake
+[2.707s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/cmake/mindvision_cameraConfig-version.cmake
+[2.707s] -- Installing: /home/spaaaaace/Ros2_mindvision/install/mindvision_camera/share/mindvision_camera/package.xml
+[2.708s] Invoked command in '/home/spaaaaace/Ros2_mindvision/build/mindvision_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/spaaaaace/Ros2_mindvision/build/mindvision_camera

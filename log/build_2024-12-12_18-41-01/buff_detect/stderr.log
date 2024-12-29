@@ -1,0 +1,25 @@
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:147:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  147 |                         for (int i = 0; [01;35m[Ki < contours.size()[m[K; i++) {
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:160:69:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  160 |                                       if (childid >= 0 && [01;35m[Kchildid < contours.size()[m[K) {
+      |                                                           [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:176:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  176 |                         if ((minID >= 0 && [01;35m[KminID < contours.size()[m[K)) {
+      |                                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:186:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  186 |                         for (int i = 0; [01;35m[Ki < contours_close.size()[m[K; i++) {
+      |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:198:146:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  198 | [i][2]][0] != -1 && hierarchies_close[hierarchies_close[i][2]][0] < contours_close.size()) {
+
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:216:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  216 |                                 if (maxID >= 0 && [01;35m[KmaxID < contours_close.size()[m[K) {
+      |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:237:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradiu_buff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  237 |                         double [01;35m[Kradiu_buff[m[K = 0;
+      |                                [01;35m[K^~~~~~~~~~[m[K
+/usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410
+/usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410

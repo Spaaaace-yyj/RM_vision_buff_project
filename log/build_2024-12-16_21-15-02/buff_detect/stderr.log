@@ -1,0 +1,35 @@
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:[m[K In member function ‘[01m[Kvoid ImagePublisher::PublishResultFrame(const cv::Mat&)[m[K’:
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:35:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<cv_bridge::CvImage>[m[K’} has no member named ‘[01m[Kimage[m[K’
+   35 |                         cv_image.[01;31m[Kimage[m[K = bgr8_frame;
+      |                                  [01;31m[K^~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:36:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<cv_bridge::CvImage>[m[K’} has no member named ‘[01m[Kencoding[m[K’
+   36 |                         cv_image.[01;31m[Kencoding[m[K = "bgr8";
+      |                                  [01;31m[K^~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:37:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<cv_bridge::CvImage>[m[K’} has no member named ‘[01m[Kheader[m[K’
+   37 |                         cv_image.[01;31m[Kheader[m[K.stamp = this->get_clock()->now();
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:38:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<cv_bridge::CvImage>[m[K’} has no member named ‘[01m[Kheader[m[K’
+   38 |             cv_image.[01;31m[Kheader[m[K.frame_id = "result_frame";
+      |                      [01;31m[K^~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:39:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge::CvImagePtr[m[K’ {aka ‘[01m[Kclass std::shared_ptr<cv_bridge::CvImage>[m[K’} has no member named ‘[01m[KtoImageMsg[m[K’
+   39 |                         auto img_msg = cv_image.[01;31m[KtoImageMsg[m[K();
+      |                                                 [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:[m[K In constructor ‘[01m[KImage::Image()[m[K’:
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:97:29:[m[K [01;31m[Kerror: [m[K‘[01m[Krcl_intPtrerfaces[m[K’ has not been declared
+   97 |         lower_blue_s.type = [01;31m[Krcl_intPtrerfaces[m[K::msg::ParameterType::PARAMETER_INTEGER;
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:276:69:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  276 |                                         if (childid >= 0 && [01;35m[Kchildid < contours.size()[m[K) {
+      |                                                             [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:292:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  292 |                         if ((minID >= 0 && [01;35m[KminID < contours.size()[m[K)) {
+      |                                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:314:146:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  314 |                                         if (hierarchies_close[hierarchies_close[i][2]][0] != -1 && hierarchies_close[hierarchies_close[i][2]][0] < contours_close.size()) {
+[01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:332:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  332 |                                 if (maxID >= 0 && [01;35m[KmaxID < contours_close.size()[m[K) {
+      |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/buff_detect.dir/build.make:76：CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/buff_detect.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

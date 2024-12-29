@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_buff_detect/build/buff_detect -- -j22 -l22
+[0.033s] [ 50%] [32mBuilding CXX object CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o[0m
+[1.986s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.986s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:205:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class ImageSubscriber[m[K’ {aka ‘[01m[Kclass ImageSubscriber[m[K’} has no member named ‘[01m[KGet_H[m[K’
+[1.986s]   205 |                 H = node->[01;31m[KGet_H[m[K();
+[1.986s]       |                           [01;31m[K^~~~~[m[K
+[1.987s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:234:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.987s]   234 |                         for (int i = 0; [01;35m[Ki < contours.size()[m[K; i++) {
+[1.987s]       |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[1.987s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:247:69:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.987s]   247 |                                       if (childid >= 0 && [01;35m[Kchildid < contours.size()[m[K) {
+[1.988s]       |                                                           [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[1.988s] 
+[1.988s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:263:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.988s]   263 |                         if ((minID >= 0 && [01;35m[KminID < contours.size()[m[K)) {
+[1.988s]       |                                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[1.988s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:273:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.988s]   273 |                         for (int i = 0; [01;35m[Ki < contours_close.size()[m[K; i++) {
+[1.988s]       |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.988s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:285:146:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.988s]   285 | [i][2]][0] != -1 && hierarchies_close[hierarchies_close[i][2]][0] < contours_close.size()) {
+[1.988s] 
+[1.988s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:303:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.989s]   303 |                                 if (maxID >= 0 && [01;35m[KmaxID < contours_close.size()[m[K) {
+[1.989s]       |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.989s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:324:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradiu_buff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.989s]   324 |                         double [01;35m[Kradiu_buff[m[K = 0;
+[1.989s]       |                                [01;35m[K^~~~~~~~~~[m[K
+[3.468s] gmake[2]: *** [CMakeFiles/buff_detect.dir/build.make:76：CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o] 错误 1
+[3.468s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/buff_detect.dir/all] 错误 2
+[3.469s] gmake: *** [Makefile:146：all] 错误 2
+[3.471s] Invoked command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_buff_detect/build/buff_detect -- -j22 -l22

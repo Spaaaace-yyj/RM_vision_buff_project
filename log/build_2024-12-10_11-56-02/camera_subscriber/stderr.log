@@ -1,0 +1,4 @@
+[31mCMake Error at CMakeLists.txt:14 (ament_auto_find_build_dependencies):
+  Unknown CMake command "ament_auto_find_build_dependencies".
+
+[0m

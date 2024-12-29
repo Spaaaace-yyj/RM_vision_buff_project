@@ -1,0 +1,16 @@
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/lib/buff_detect/buff_detect
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/ament_index/resource_index/package_run_dependencies/buff_detect
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/ament_index/resource_index/parent_prefix_path/buff_detect
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/environment/ament_prefix_path.sh
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/environment/ament_prefix_path.dsv
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/environment/path.sh
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/environment/path.dsv
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/local_setup.bash
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/local_setup.sh
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/local_setup.zsh
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/local_setup.dsv
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/package.dsv
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/ament_index/resource_index/packages/buff_detect
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/cmake/buff_detectConfig.cmake
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/cmake/buff_detectConfig-version.cmake
+/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect/share/buff_detect/package.xml

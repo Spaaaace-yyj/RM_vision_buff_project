@@ -1,0 +1,81 @@
+[0.007s] Invoking command in '/home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/buff_detect -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect
+[0.056s] -- The C compiler identification is GNU 11.4.0
+[0.114s] -- The CXX compiler identification is GNU 11.4.0
+[0.124s] -- Detecting C compiler ABI info
+[0.165s] -- Detecting C compiler ABI info - done
+[0.174s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.175s] -- Detecting C compile features
+[0.175s] -- Detecting C compile features - done
+[0.178s] -- Detecting CXX compiler ABI info
+[0.227s] -- Detecting CXX compiler ABI info - done
+[0.234s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.234s] -- Detecting CXX compile features
+[0.235s] -- Detecting CXX compile features - done
+[0.238s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.328s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.386s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.419s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.424s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.432s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.442s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.488s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.490s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.562s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.583s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.617s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.624s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.668s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.670s] -- Found Threads: TRUE  
+[0.720s] -- Found OpenCV: /usr/local (found version "4.10.0") 
+[0.720s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.750s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.752s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.807s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.807s] -- Configured cppcheck include dirs: 
+[0.807s] -- Configured cppcheck exclude dirs and/or files: 
+[0.808s] -- Added test 'lint_cmake' to check CMake code style
+[0.811s] -- Added test 'uncrustify' to check C / C++ code style
+[0.811s] -- Configured uncrustify additional arguments: 
+[0.811s] -- Added test 'xmllint' to check XML markup files
+[0.812s] -- Configuring done (0.8s)
+[0.818s] -- Generating done (0.0s)
+[0.819s] -- Build files have been written to: /home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect
+[0.823s] Invoked command in '/home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/buff_detect -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/src/buff_detect/install/buff_detect
+[0.825s] Invoking command in '/home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect -- -j22 -l22
+[0.841s] [ 50%] [32mBuilding CXX object CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o[0m
+[2.691s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.692s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:112:54:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KwaitKey[m[K’
+[2.692s]   112 |                 cout << "[Try 1]Loading camera......"
+[2.692s]       |                                                      [01;31m[K^[m[K
+[2.692s]       |                                                      [32m[K;[m[K
+[2.692s]   113 |                 [32m[KwaitKey[m[K(500);
+[2.692s]       |                 [32m[K~~~~~~~[m[K                               
+[2.692s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:116:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcout[m[K’
+[2.692s]   116 |                 cout << "[ERROR] Can't get frame from camera!"
+[2.692s]       |                                                               [01;31m[K^[m[K
+[2.692s]       |                                                               [32m[K;[m[K
+[2.692s]   117 |                 [32m[Kcout[m[K << "[Try 2]Loading camera......"
+[2.692s]       |                 [32m[K~~~~[m[K                                           
+[2.700s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:152:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.700s]   152 |                         for (int i = 0; [01;35m[Ki < contours.size()[m[K; i++) {
+[2.700s]       |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~[m[K
+[2.700s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:182:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.700s]   182 |                         if ((minID >= 0 && [01;35m[KminID <= contours.size()[m[K) && hierarchies[minID][3] >= 0) {
+[2.700s]       |                                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[2.700s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:191:43:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.700s]   191 |                         for (int i = 0; [01;35m[Ki < contours_close.size()[m[K; i++) {
+[2.701s]       |                                         [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.701s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:203:146:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.701s]   203 | [i][2]][0] != -1 && hierarchies_close[hierarchies_close[i][2]][0] < contours_close.size()) {
+[2.701s] 
+[2.701s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:221:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.701s]   221 |                                 if (maxID >= 0 && [01;35m[KmaxID < contours_close.size()[m[K) {
+[2.701s]       |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.701s] [01m[K/home/spaaaaace/Ros2_mindvision/src/buff_detect/src/buff_detect.cpp:242:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradiu_buff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.702s]   242 |                         double [01;35m[Kradiu_buff[m[K = 0;
+[2.702s]       |                                [01;35m[K^~~~~~~~~~[m[K
+[4.008s] gmake[2]: *** [CMakeFiles/buff_detect.dir/build.make:76：CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o] 错误 1
+[4.008s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/buff_detect.dir/all] 错误 2
+[4.009s] gmake: *** [Makefile:146：all] 错误 2
+[4.011s] Invoked command in '/home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/src/buff_detect/build/buff_detect -- -j22 -l22

@@ -1,0 +1,14 @@
+[31mCMake Error at CMakeLists.txt:35 (target_link_libraries):
+  Target "camera_subscriber" links to:
+
+    sensor_msgs::sensor_msgs
+
+  but the target was not found.  Possible reasons include:
+
+    * There is a typo in the target name.
+    * A find_package call is missing for an IMPORTED target.
+    * An ALIAS target is missing.
+
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

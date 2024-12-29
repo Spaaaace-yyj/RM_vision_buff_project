@@ -1,0 +1,19 @@
+[0.007s] Invoking command in '/home/spaaaaace/Ros2_mindvision/build/camera_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/camera_subscriber -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/install/camera_subscriber
+[0.013s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.066s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.083s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.085s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.089s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.095s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.103s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.128s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.129s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.202s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.237s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.259s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.263s] [31mCMake Error at CMakeLists.txt:14 (ament_auto_find_build_dependencies):
+[0.263s]   Unknown CMake command "ament_auto_find_build_dependencies".
+[0.263s] 
+[0.263s] [0m
+[0.264s] -- Configuring incomplete, errors occurred!
+[0.269s] Invoked command in '/home/spaaaaace/Ros2_mindvision/build/camera_subscriber' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/camera_subscriber -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/install/camera_subscriber

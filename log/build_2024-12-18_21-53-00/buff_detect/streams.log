@@ -1,0 +1,83 @@
+[0.007s] Invoking command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_buff_detect/src/buff_detect -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_buff_detect/install/buff_detect
+[0.072s] -- The C compiler identification is GNU 11.4.0
+[0.130s] -- The CXX compiler identification is GNU 11.4.0
+[0.142s] -- Detecting C compiler ABI info
+[0.188s] -- Detecting C compiler ABI info - done
+[0.199s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.200s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.252s] -- Detecting CXX compiler ABI info - done
+[0.258s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.258s] -- Detecting CXX compile features
+[0.258s] -- Detecting CXX compile features - done
+[0.262s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.363s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.425s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.459s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.463s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.469s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.494s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.529s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.531s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.607s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.627s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.664s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.670s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.721s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.722s] -- Found Threads: TRUE  
+[0.771s] -- Found OpenCV: /usr/local (found version "4.10.0") 
+[0.772s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.801s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.804s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.860s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.860s] -- Configured cppcheck include dirs: 
+[0.861s] -- Configured cppcheck exclude dirs and/or files: 
+[0.861s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.862s] -- Added test 'lint_cmake' to check CMake code style
+[0.863s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.868s] -- Added test 'uncrustify' to check C / C++ code style
+[0.868s] -- Configured uncrustify additional arguments: 
+[0.869s] -- Added test 'xmllint' to check XML markup files
+[0.870s] -- Configuring done (0.9s)
+[0.876s] -- Generating done (0.0s)
+[0.877s] -- Build files have been written to: /home/spaaaaace/Ros2_buff_detect/build/buff_detect
+[0.882s] Invoked command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_buff_detect/src/buff_detect -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_buff_detect/install/buff_detect
+[0.883s] Invoking command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_buff_detect/build/buff_detect -- -j22 -l22
+[0.900s] [ 50%] [32mBuilding CXX object CMakeFiles/buff_detect.dir/src/buff_detect.cpp.o[0m
+[2.832s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.832s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:277:69:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.832s]   277 |                                         if (childid >= 0 && [01;35m[Kchildid < contours.size()[m[K) {
+[2.832s]       |                                                             [01;35m[K~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.832s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:293:50:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.832s]   293 |                         if ((minID >= 0 && [01;35m[KminID < contours.size()[m[K)) {
+[2.832s]       |                                            [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[2.833s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:315:146:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.833s]   315 |                                         if (hierarchies_close[hierarchies_close[i][2]][0] != -1 && hierarchies_close[hierarchies_close[i][2]][0] < contours_close.size()) {
+[2.833s] [01m[K/home/spaaaaace/Ros2_buff_detect/src/buff_detect/src/buff_detect.cpp:333:57:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::vector<cv::Point_<int> > >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[2.833s]   333 |                                 if (maxID >= 0 && [01;35m[KmaxID < contours_close.size()[m[K) {
+[2.833s]       |                                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.483s] [100%] [32m[1mLinking CXX executable buff_detect[0m
+[6.628s] /usr/bin/ld: warning: libopencv_imgproc.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgproc.so.410
+[6.629s] /usr/bin/ld: warning: libopencv_core.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_core.so.410
+[6.951s] [100%] Built target buff_detect
+[6.959s] Invoked command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_buff_detect/build/buff_detect -- -j22 -l22
+[6.975s] Invoking command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/spaaaaace/Ros2_buff_detect/build/buff_detect
+[6.976s] -- Install configuration: ""
+[6.976s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/ament_index/resource_index/package_run_dependencies/buff_detect
+[6.976s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/ament_index/resource_index/parent_prefix_path/buff_detect
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/ament_prefix_path.sh
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/ament_prefix_path.dsv
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/path.sh
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/environment/path.dsv
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.bash
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.sh
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.zsh
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/local_setup.dsv
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/package.dsv
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/ament_index/resource_index/packages/buff_detect
+[6.977s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/cmake/buff_detectConfig.cmake
+[6.978s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/cmake/buff_detectConfig-version.cmake
+[6.978s] -- Installing: /home/spaaaaace/Ros2_buff_detect/install/buff_detect/share/buff_detect/package.xml
+[6.979s] Invoked command in '/home/spaaaaace/Ros2_buff_detect/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/spaaaaace/Ros2_buff_detect/build/buff_detect

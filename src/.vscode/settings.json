@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "deque": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "*.ipp": "cpp",
+        "array": "cpp",
+        "string_view": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp"
+    }
+}

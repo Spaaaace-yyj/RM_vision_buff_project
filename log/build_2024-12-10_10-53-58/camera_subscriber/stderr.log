@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findopencv4.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "opencv4", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "opencv4" with any
+  of the following names:
+
+    opencv4Config.cmake
+    opencv4-config.cmake
+
+  Add the installation prefix of "opencv4" to CMAKE_PREFIX_PATH or set
+  "opencv4_DIR" to a directory containing one of the above files.  If
+  "opencv4" provides a separate development package or SDK, be sure it has
+  been installed.
+
+[0m

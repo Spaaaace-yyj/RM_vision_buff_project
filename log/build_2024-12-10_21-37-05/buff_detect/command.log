@@ -1,0 +1,4 @@
+Invoking command in '/home/spaaaaace/Ros2_mindvision/build/buff_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/build/buff_detect -- -j22 -l22
+Invoked command in '/home/spaaaaace/Ros2_mindvision/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --build /home/spaaaaace/Ros2_mindvision/build/buff_detect -- -j22 -l22
+Invoking command in '/home/spaaaaace/Ros2_mindvision/build/buff_detect': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/spaaaaace/Ros2_mindvision/build/buff_detect
+Invoked command in '/home/spaaaaace/Ros2_mindvision/build/buff_detect' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake --install /home/spaaaaace/Ros2_mindvision/build/buff_detect

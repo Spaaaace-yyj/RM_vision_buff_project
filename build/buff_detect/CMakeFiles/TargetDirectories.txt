@@ -1,0 +1,10 @@
+/home/spaaaaace/Ros2_buff_detect/build/buff_detect/CMakeFiles/uninstall.dir
+/home/spaaaaace/Ros2_buff_detect/build/buff_detect/CMakeFiles/buff_detect_uninstall.dir
+/home/spaaaaace/Ros2_buff_detect/build/buff_detect/CMakeFiles/buff_detect.dir
+/home/spaaaaace/Ros2_buff_detect/build/buff_detect/CMakeFiles/test.dir
+/home/spaaaaace/Ros2_buff_detect/build/buff_detect/CMakeFiles/edit_cache.dir
+/home/spaaaaace/Ros2_buff_detect/build/buff_detect/CMakeFiles/rebuild_cache.dir
+/home/spaaaaace/Ros2_buff_detect/build/buff_detect/CMakeFiles/list_install_components.dir
+/home/spaaaaace/Ros2_buff_detect/build/buff_detect/CMakeFiles/install.dir
+/home/spaaaaace/Ros2_buff_detect/build/buff_detect/CMakeFiles/install/local.dir
+/home/spaaaaace/Ros2_buff_detect/build/buff_detect/CMakeFiles/install/strip.dir

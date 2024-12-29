@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/spaaaaace/Ros2_mindvision/src/ros2_mindvision_camera/CMakeLists.txt" does not match the source "/home/spaaaaace/Ros2_mindvision/src/mindvision_camera/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

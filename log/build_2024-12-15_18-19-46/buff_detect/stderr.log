@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:14 (find_package):
+  By not providing "Findparameter_descriptor.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "parameter_descriptor", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "parameter_descriptor" with any of the following names:
+
+    parameter_descriptorConfig.cmake
+    parameter_descriptor-config.cmake
+
+  Add the installation prefix of "parameter_descriptor" to CMAKE_PREFIX_PATH
+  or set "parameter_descriptor_DIR" to a directory containing one of the
+  above files.  If "parameter_descriptor" provides a separate development
+  package or SDK, be sure it has been installed.
+
+[0m
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

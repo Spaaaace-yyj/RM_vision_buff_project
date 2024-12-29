@@ -1,0 +1,50 @@
+[0.007s] Invoking command in '/home/spaaaaace/Ros2_mindvision/build/camera_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/camera_subscriber -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/install/camera_subscriber
+[0.046s] -- The C compiler identification is GNU 11.4.0
+[0.082s] -- The CXX compiler identification is GNU 11.4.0
+[0.091s] -- Detecting C compiler ABI info
+[0.130s] -- Detecting C compiler ABI info - done
+[0.137s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.138s] -- Detecting C compile features
+[0.138s] -- Detecting C compile features - done
+[0.140s] -- Detecting CXX compiler ABI info
+[0.182s] -- Detecting CXX compiler ABI info - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.191s] -- Detecting CXX compile features
+[0.192s] -- Detecting CXX compile features - done
+[0.193s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.281s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.329s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.353s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.355s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.360s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.367s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.402s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.403s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.467s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.484s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.512s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.516s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.561s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.563s] -- Found Threads: TRUE  
+[0.601s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.636s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.647s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.647s]   By not providing "Findopencv4.cmake" in CMAKE_MODULE_PATH this project has
+[0.647s]   asked CMake to find a package configuration file provided by "opencv4", but
+[0.648s]   CMake did not find one.
+[0.648s] 
+[0.648s]   Could not find a package configuration file provided by "opencv4" with any
+[0.648s]   of the following names:
+[0.648s] 
+[0.648s]     opencv4Config.cmake
+[0.648s]     opencv4-config.cmake
+[0.648s] 
+[0.648s]   Add the installation prefix of "opencv4" to CMAKE_PREFIX_PATH or set
+[0.648s]   "opencv4_DIR" to a directory containing one of the above files.  If
+[0.648s]   "opencv4" provides a separate development package or SDK, be sure it has
+[0.648s]   been installed.
+[0.648s] 
+[0.648s] [0m
+[0.648s] -- Configuring incomplete, errors occurred!
+[0.653s] Invoked command in '/home/spaaaaace/Ros2_mindvision/build/camera_subscriber' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/camera_subscriber -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/install/camera_subscriber

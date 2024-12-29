@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/spaaaaace/Ros2_mindvision/build/camera_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/camera_subscriber -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/install/camera_subscriber
+[0.015s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.070s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.088s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.090s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.094s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.100s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.108s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.131s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.132s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.193s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.229s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.252s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.259s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.260s]   By not providing "Findopencv4.cmake" in CMAKE_MODULE_PATH this project has
+[0.260s]   asked CMake to find a package configuration file provided by "opencv4", but
+[0.260s]   CMake did not find one.
+[0.260s] 
+[0.260s]   Could not find a package configuration file provided by "opencv4" with any
+[0.260s]   of the following names:
+[0.260s] 
+[0.260s]     opencv4Config.cmake
+[0.260s]     opencv4-config.cmake
+[0.260s] 
+[0.260s]   Add the installation prefix of "opencv4" to CMAKE_PREFIX_PATH or set
+[0.261s]   "opencv4_DIR" to a directory containing one of the above files.  If
+[0.261s]   "opencv4" provides a separate development package or SDK, be sure it has
+[0.261s]   been installed.
+[0.261s] 
+[0.261s] [0m
+[0.261s] -- Configuring incomplete, errors occurred!
+[0.265s] Invoked command in '/home/spaaaaace/Ros2_mindvision/build/camera_subscriber' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake /home/spaaaaace/Ros2_mindvision/src/camera_subscriber -DCMAKE_INSTALL_PREFIX=/home/spaaaaace/Ros2_mindvision/install/camera_subscriber
